@@ -1,0 +1,34 @@
+# Comments Table
+SELECT * from Posts where ("Title" LIKE '%energy consum%' OR
+"Title" LIKE '%energy efficien%' OR "Title" LIKE '%energy sav%' OR
+"Title" LIKE '%save energ%' OR "Title" LIKE '%power consum%' OR
+"Title" LIKE '%power efficien%' OR "Title" LIKE '%power sa%' OR 
+"Title" LIKE '%save power%' OR "Title" LIKE '%high cpu%' OR 
+"Title" LIKE '%high CPU%' OR "Title" LIKE '%power aware%' OR 
+"Title" LIKE '%battery%' OR "Title" LIKE '%no sleep%' OR
+"Title" LIKE '%battery life%' OR "Title" LIKE '%battery consum%' OR
+"Title" LIKE '%battery short%' OR "Title" LIKE '%short battery%' OR
+"Title" LIKE '%battery consum%' OR
+"Body" LIKE '%energy consum%' OR
+"Body" LIKE '%energy efficien%' OR "Body" LIKE '%energy sav%' OR
+"Body" LIKE '%save energ%' OR "Body" LIKE '%power consum%' OR
+"Body" LIKE '%power efficien%' OR "Body" LIKE '%power sa%' OR 
+"Body" LIKE '%save power%' OR "Body" LIKE '%high cpu%' OR 
+"Body" LIKE '%high CPU%' OR "Body" LIKE '%power aware%' OR 
+"Body" LIKE '%battery%' OR "Body" LIKE '%no sleep%' OR
+"Body" LIKE '%battery life%' OR "Body" LIKE '%battery consum%' OR
+"Body" LIKE '%battery short%' OR "Body" LIKE '%short battery%' OR
+"Body" LIKE '%battery consum%');
+
+
+# Comments Table
+SELECT * from Comments where ("Text" LIKE '%energy consum%' OR
+						   "Text" LIKE '%energy efficien%' OR "Text" LIKE '%energy sav%' OR
+						   "Text" LIKE '%save energ%' OR "Text" LIKE '%power consum%' OR
+						   "Text" LIKE '%power efficien%' OR "Text" LIKE '%power sa%' OR 
+						   "Text" LIKE '%save power%' OR "Text" LIKE '%high cpu%' OR 
+						   "Text" LIKE '%high CPU%' OR "Text" LIKE '%power aware%' OR 
+						   "Text" LIKE '%battery%' OR "Text" LIKE '%no sleep%' OR
+						   "Text" LIKE '%battery life%' OR "Text" LIKE '%battery consum%' OR
+						   "Text" LIKE '%battery short%' OR "Text" LIKE '%short battery%' OR
+						   "Text" LIKE '%battery consum%');
