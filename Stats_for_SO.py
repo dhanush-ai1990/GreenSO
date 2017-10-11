@@ -90,8 +90,8 @@ print("Yearly statistics")
 print(temp1)
 print(temp2)
 """
-file1 = open('/Users/Dhanush/Downloads/Text/SOIOSQNS.txt', 'r') 
-file2 = open('/Users/Dhanush/Downloads/Text/SOIOSANS.txt', 'r') 
+file1 = open('/Users/Dhanush/Downloads/Text/SOQNS.txt', 'r') 
+file2 = open('/Users/Dhanush/Downloads/Text/SOANS.txt', 'r') 
 from datetime import date
 from datetime import datetime
 def get_diff_of_dates(d1,d2):
@@ -136,6 +136,7 @@ total_days=0
 for item in Questions_dict:
 	if item in answers_dict:
 		diff = get_diff_of_dates((min(answers_dict[item])),Questions_dict[item])
+		print (diff)
 		#print (diff,min(answers_dict[item]),Questions_dict[item])
 		total_days+=diff
 		count+=1
